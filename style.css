@@ -1,6 +1,5 @@
-/* 
- *画面のスタイルシート
- */
+@charset "UTF-8";
+/* 画面のスタイルシート*/
 
  body{
      font-family: "Noto Sans JP","sans-serif";
@@ -12,10 +11,12 @@
      color: #00ABAE;
  }
 
+ .sub-title{
+     font-size: 32px;
+ }
 
- /* 
- *［header］のスタイルシート
- */
+
+ /* ［header］のスタイルシート*/
 
  .block-header{
      margin: 10px 0;
@@ -28,3 +29,25 @@
      text-decoration: none;
      letter-spacing: 1px;
  }
+ /* 
+ *[main]スタイルシート
+ */
+ .block-main{
+    text-align: center;
+    margin: 100px 0;
+ }
+/* 
+*[profile]スタイルシート
+*/
+.item-list{
+
+}
+
+.item-list b{}
+
+.item-list p{}
+
+.icon-list{}
+
+.icon-list li{}
+
