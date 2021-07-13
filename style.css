@@ -39,15 +39,32 @@
 /* 
 *[profile]スタイルシート
 */
-.item-list{
+.item-list{width: 100%;max-width: 348px;margin: 0 auto;}
 
+.item-list b{
+    display: block;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 20px 0 30px;
 }
 
-.item-list b{}
+.item-list p{
+    font-size: 14px;
+    line-height: normal;
+    text-align: left;
+}
 
-.item-list p{}
+.icon-list{
+    list-style: none;
+    width: 100%;
+    max-width: 247px;
+    margin: 30px auto;
+    padding: 0;
+    display: flex;
+    -webkit-justify-content: center;
+}
 
-.icon-list{}
-
-.icon-list li{}
+.icon-list li{
+    margin-right: 22px;
+}
 
